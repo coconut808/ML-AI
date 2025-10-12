@@ -14,7 +14,7 @@
 **Hypothesis:** Following up on our assumption earlir implied that any person(s) under the 21 would not be using the coupons at the bar.  To my surprise there were 36 people below 21 who used a coupon at the bar. 
 
 
-**Proprtion of total observations:**
+**Proportion of total observations:**
 * 56.84% of the total observations chose to accept the coupons.
 * 'Coffee house' was the most popular type of coupon accepted as depicted by the plot below. 
 ![coupon distribution](images/coupon_distribution.png)
