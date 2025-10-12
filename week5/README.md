@@ -17,4 +17,4 @@
 **Proprtion of total observations:**
 * 56.84% of the total observations chose to accept the coupons.
 * 'Coffee house' was the most popular type of coupon accepted as depicted by the plot below. 
-![coupon distribution]("images/coupon_distribution.png")
+![coupon distribution](images/coupon_distribution.png)
