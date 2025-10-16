@@ -36,8 +36,12 @@ After an initial analysis, there was some data cleaning to be done as was expect
 Acceptance rates between drivers who:
 - go to bars more than once a month, had passengers that were not a kid, and were not widowed (66.7%)
 - go to bars more than once a month and are under the age of 30 (41.7%)
-- go to cheap restaurants more than 4 times a month and income is less than 50K. (32.6%)
+- go to cheap restaurants more than 4 times a month and income is less than 50K. (32.6%)o
 
+The top 2 occupations for bar goers that go 1 or more times a month are:
+1. Unemployed
+2. Student
+![Occupation for Bar Goers](images/occupation_distribution.png)
 
 ### Independent Investigations
 * 49.9% of coffee house coupons were accepted.
