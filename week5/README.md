@@ -25,7 +25,7 @@ After an initial analysis, there was some data cleaning to be done as was expect
 **Proportion of total observations:**
 * 56.84% of the total observations chose to accept the coupons.
 * 'Coffee house' had the most coupons distributed.
-![coupon distribution](images/coupon_distribution.png)
+![coupon distribution](images/coupon_distribution.png)  
 ![coupon distribtion by expiration](images/coupon_distribution_by_expiration.png)
 
 **Investigating the Bar Coupons**
@@ -39,8 +39,8 @@ Acceptance rates between drivers who:
 - go to cheap restaurants more than 4 times a month and income is less than 50K. (32.6%)o
 
 The top 2 occupations for bar goers that go 1 or more times a month are:
-1. Unemployed
-2. Student
+1. Unemployed   
+2. Student  
 ![Occupation for Bar Goers](images/occupation_distribution.png)
 
 ### Independent Investigations
