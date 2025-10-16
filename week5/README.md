@@ -48,3 +48,4 @@ The top 2 occupations for bar goers that go 1 or more times a month are:
 * Cheap restaurants (less than $20) had an acceptance rate of 70.7%.
 * The more expensive restaurants ($20-$50) had an acceptance rate of 44.1%
 * The "to go" (carry out & take away) option had an acceptance rate of 73.5%.  
+* For all the coupons, the expiration date of 1 day (vs 2hours) had a higher acceptance rate across the board. So it's possible some subjects did not have time to stop, or did not plan to, on the way to their destination.  However, there was a possibility that they would stop on the return trip. 
