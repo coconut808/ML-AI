@@ -26,7 +26,7 @@ After an initial analysis, there was some data cleaning to be done as was expect
 * 56.84% of the total observations chose to accept the coupons.
 * 'Coffee house' had the most coupons distributed.
 ![coupon distribution](images/coupon_distribution.png)
-![coupon distribtion by expiration](images/coupon_distribution_by_expiration.png")
+![coupon distribtion by expiration](images/coupon_distribution_by_expiration.png)
 
 **Investigating the Bar Coupons**
 * 41% of bar related coupons were accepted.  Thankfully, this was the lowest acceptance rate of the options as we don't need intoxicated drivers on the road. 
