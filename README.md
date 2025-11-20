@@ -1,5 +1,5 @@
 # ML-AI
-This repository is a portfolio of assignments,experiments, and work in the ML/AI space.
+This repository is a portfolio of assignments,experiments, and work in the ML/AI space as required by the university program.
 
 ### week5 
 This folder contains all required components for the week 5 assignment.
