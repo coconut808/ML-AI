@@ -3,7 +3,8 @@
 
 There are 2 files here currently: 
 * eda.ipynb - jupyter notebook used during exploratory data analysis
-* prompt_ii.ipynb
+* luxury.ipynb - jupyter notebook fun EDA on luxury/exotic cars 
+* prompt_ii.ipynb - main notebook with business reasoning and cases
 
 
 
