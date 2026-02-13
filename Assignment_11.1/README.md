@@ -37,17 +37,27 @@ There are 2 files here currently:
 
 
 
+----
 
+# Fun Luxury EDA
+*Separated out a quick analysis on EDA to get some fun points on luxury/exotic vehicles.*
 
+*Why?*
+ Luxury/exotic vehicles are higher in price which will skew the data.  There are typically specialty dealships for these type of vehicles as there are for motorcyles as well. 
 
+Data points found during EDA of these vehicles. 
+* They all have a clean title. 
+* Topping the list of the brands are mercedes-benz, ferrari, and porsche. 
+* There are less older exotic vehicles.  A lot of these are generally even more rare and collectables.
+* No exotic/luxury cars with odometer readings over 250,000 miles in our dataset.  With the highest topping out at 217,000 miles.
+* There are some cars with mileage under 50 miles which would be classified as new. 
+* Transmission in these higher price range cars have a higher percentage (84.3%) with a classifcation of excellent, like new, good. 
+* Most of the transmisison is automatic
 
-
-
-
-
+----
 
 # Supplemental
-Some data plots used pre data cleaning: 
+Some data plots created in EDA, pre data cleaning: 
 ![dirty_year_price](images/dirty_year_price.png)
 ![cleaned_year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
 
