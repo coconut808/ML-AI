@@ -6,6 +6,12 @@ There are 2 files here currently:
 * luxury.ipynb - jupyter notebook fun EDA on luxury/exotic cars 
 * prompt_ii.ipynb - main notebook with business reasoning and cases
 
+Some initial analysis shows that the number or cars start to tail of in the 1990s so we're going to use data between 1995 and 2024 which is about 30 years of data. The median price did not change much going from a 50 year window to a 30 year window. 
+
+Median price from 1975-2024
+![year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
+Median price from 1995-2024
+![year_price_1995_2024](images/cleaned_year__price_1995_2024.png)
 
 
 
