@@ -48,7 +48,7 @@ There are 2 files here currently:
 
 # Supplemental
 Some data plots used pre data cleaning: 
-![dirty_year_price](images/diry_year_price.png)
+![dirty_year_price](images/dirty_year_price.png)
 ![cleaned_year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
 
 
