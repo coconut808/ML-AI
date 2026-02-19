@@ -13,7 +13,8 @@ Median price from 1975-2024
 Median price from 1995-2024
 ![year_price_1995_2024](images/cleaned_year__price_1995_2024.png)
 
-
+*Car color* 
+* Interestingly, white, black, and silver are the top color choices for cars.  Same holds true for luxury/exotic cars.
 
 
 
