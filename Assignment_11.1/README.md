@@ -1,5 +1,45 @@
-# What drives the price of a car?
-*This README file will serve the purpose of a delivered report to the customer(A used car dealership).*  
+# Executive Summary
+
+## Problem Statement: 
+Help used car dealers interested in fine-tuning their inventory
+
+## Data Description:
+The dataset contains information on used car.  Source: Kaggle
+
+## EDA
+
+
+
+## Analysis
+
+
+* Supplmental Analysis on Luxury/Exotic cars provided below. 
+
+
+
+
+### Supplemental - Luxury/Exotic Cars
+These vehicles were typically higher in price which skewed the data on pricing.  Due to the higher cost of the vehicle, the operating costs (storing, securing, insurance, maintenance, parts) would cost more for dealerships.  Typically these vehicles can be found at used dealerships that specialize in luxury/exotic cars.  As one may expect, this would also attact a different segment of customers as well. 
+
+Data points to highlight:
+* They all have a clean title. 
+* Topping the list of the manufacturers are mercedes-benz, ferrari, and porsche. 
+* There are less older exotic vehicles.  Any oler models these are generally rare and may be considered collectables.
+* No exotic/luxury cars with odometer readings over 250,000 miles in our dataset.  With the highest topping out at 217,000 miles.
+* There are some records with mileage under 50 miles which would be classified as new. Which also eliminates them from the used car dataset. 
+* Transmission in these higher price range cars have a higher percentage (84.3%) with a classifcation of excellent, like new, good. 
+* Most of the transmisison is automatic.
+
+
+
+
+
+
+
+
+
+
+
 
 There are 2 files here currently: 
 * eda.ipynb - jupyter notebook used during exploratory data analysis
@@ -43,23 +83,6 @@ Median price from 1995-2024
 
 
 
-
-----
-
-# Fun Luxury EDA
-*Separated out a quick analysis on EDA to get some fun points on luxury/exotic vehicles.*
-
-*Why?*
- Luxury/exotic vehicles are higher in price which will skew the data.  There are typically specialty dealships for these type of vehicles as there are for motorcyles as well. 
-
-Data points found during EDA of these vehicles. 
-* They all have a clean title. 
-* Topping the list of the brands are mercedes-benz, ferrari, and porsche. 
-* There are less older exotic vehicles.  A lot of these are generally even more rare and collectables.
-* No exotic/luxury cars with odometer readings over 250,000 miles in our dataset.  With the highest topping out at 217,000 miles.
-* There are some cars with mileage under 50 miles which would be classified as new. 
-* Transmission in these higher price range cars have a higher percentage (84.3%) with a classifcation of excellent, like new, good. 
-* Most of the transmisison is automatic
 
 ----
 
