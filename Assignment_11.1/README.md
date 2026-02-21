@@ -16,12 +16,12 @@ The dataset contains information on used car.  Sourced from a Kaggle dataset.
 ## Analysis
 The year of the car was the biggest factor on the price.  Calculating the mean price of the car over a shorter period, while keeping the newer vehicles and dropping the older ones had an increase in median price. Cars over 20 years old did not provide a significant increase in the median price, while cars within the last 10 years proved to have the highest price mean.
 
-Median Price
-1975-2024   $16,500
-1985-2024   $16,590
-1995-2024   $16,881
-2005-2024   $17,995
-2015-2024   $27,988
+Median Price  
+1975-2024   $16,500  
+1985-2024   $16,590  
+1995-2024   $16,881  
+2005-2024   $17,995  
+2015-2024   $27,988  
 
 ![median_price_by_year.png](images/median_price_by_year.png)
 
