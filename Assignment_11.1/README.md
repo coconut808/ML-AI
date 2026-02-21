@@ -3,7 +3,7 @@ The purpose of this report is to assist used car dealerships in determining what
 
 The year of the vehicle was the biggest driver to the price of the vehicle.  Second, the odometer reading or current mileage of the vehicle was the next driver.  Typically, the newer the vehicle the less miles it has. Vehicles within the last 10 years are more desireable and have a higher price point than older car.  The median price for vehicles within the last 20 years has a significant differnce in comparison to the median price for vehicles with the last 10 years.  The difference in price is about $10k. Cars with ages in the 30-50 years had a median price gernerally in the same range ($16,500-$16,881).  
 
-Luxury cars are a separate class of their own and is recommended that these used cars should be reserved for, or sold to, used luxury car dealerships. Thus vehicles over $120k, were classified separately. 
+Luxury cars are a separate class of their own and is recommended that these used cars should be reserved for, or sold to, used luxury car dealerships as they typically specialize in maintenance of these cars as well.  Thus vehicles over $120k, were classified separately. 
 
 The recommendation would be to keep inventory to cars within the last 10 years and under 50K miles on the odometer. Interestingly, white, black, and silver are the top color choices for cars. Same holds true for luxury/exotic cars. Vehicles with the 8 cyclinder feature appeared to be most popular with ford and chevy trucks. 
 
