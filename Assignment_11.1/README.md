@@ -1,7 +1,12 @@
 # Executive Summary
+The purpose of this report is to assist used car dealerships in determining what consumers value in a used car.  This will assist dealerships in reducing operating costs and increasing profit. 
+
+Luxury cars are a separate class of their own and is recommended that these used cars should be reserved for, or sold to, used luxury car dealerships. Thus vehicles over $120k, were classified separately. 
+
+
 
 ## Problem Statement: 
-Help used car dealers interested in fine-tuning their inventory
+Help used car dealers interested in fine-tuning their inventory.
 
 ## Data Description:
 The dataset contains information on used car.  Source: Kaggle
@@ -11,6 +16,16 @@ The dataset contains information on used car.  Source: Kaggle
 
 
 ## Analysis
+The year of the car was the ==biggest== factor on the price.  Calculating the mean price of the car over a shorter period, while keeping the newer vehicles and dropping the older ones had an increase in median price. Cars over 20 years old did not provide a significant increase in the median price, while cars within the last 10 years proved to have the highest price mean.
+
+Median Price
+1975-2024   $16,500
+1985-2024   $16,590
+1995-2024   $16,881
+2005-2024   $17,995
+2015-2024   $27,988
+
+
 
 
 * Supplmental Analysis on Luxury/Exotic cars provided below. 
@@ -88,7 +103,6 @@ Median price from 1995-2024
 
 # Supplemental
 Some data plots created in EDA, pre data cleaning: 
-![dirty_year_price](images/dirty_year_price.png)
 ![cleaned_year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
 
 
