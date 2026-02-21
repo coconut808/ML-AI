@@ -1,22 +1,21 @@
 # Executive Summary
 The purpose of this report is to assist used car dealerships in determining what consumers value in a used car.  This will assist dealerships in reducing operating costs and increasing profit. 
 
+The year of the vehicle was the biggest driver to the price of the vehicle.  Second, the odometer reading or current mileage of the vehicle was the next driver.  Typically, the newer the vehicle the less miles it has. Vehicles within the last 10 years are more desireable and have a higher price point than older car.  The median price for vehicles within the last 20 years has a significant differnce in comparison to the median price for vehicles with the last 10 years.  The differences is about $10k. Cars with ages in the 30-50 years had a median price gernerally in the same range ($16,500-$16,881).  
+
 Luxury cars are a separate class of their own and is recommended that these used cars should be reserved for, or sold to, used luxury car dealerships. Thus vehicles over $120k, were classified separately. 
 
+The recommendation would be to keep inventory to cars within the last 10 years and under 50K miles on the odometer. Interestingly, white, black, and silver are the top color choices for cars. Same holds true for luxury/exotic cars.
 
 
 ## Problem Statement: 
 Help used car dealers interested in fine-tuning their inventory.
 
 ## Data Description:
-The dataset contains information on used car.  Source: Kaggle
-
-## EDA
-
-
+The dataset contains information on used car.  Sourced from a Kaggle dataset.
 
 ## Analysis
-The year of the car was the ==biggest== factor on the price.  Calculating the mean price of the car over a shorter period, while keeping the newer vehicles and dropping the older ones had an increase in median price. Cars over 20 years old did not provide a significant increase in the median price, while cars within the last 10 years proved to have the highest price mean.
+The year of the car was the biggest factor on the price.  Calculating the mean price of the car over a shorter period, while keeping the newer vehicles and dropping the older ones had an increase in median price. Cars over 20 years old did not provide a significant increase in the median price, while cars within the last 10 years proved to have the highest price mean.
 
 Median Price
 1975-2024   $16,500
@@ -25,12 +24,14 @@ Median Price
 2005-2024   $17,995
 2015-2024   $27,988
 
+![median_price_by_year.png](images/median_price_by_year.png)
 
+Median price of cars within the last 50 years
+![cleaned_year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
 
-
-* Supplmental Analysis on Luxury/Exotic cars provided below. 
-
-
+The data of price to year was not quite linear and was higher in the more recent years.
+![linear_price_year](images/price_year__linear_regression.png)
+![price_year_poly](images/price_year_poly.png)
 
 
 ### Supplemental - Luxury/Exotic Cars
@@ -49,62 +50,9 @@ Data points to highlight:
 
 
 
-
-
-
-
-
-
-
-There are 2 files here currently: 
-* eda.ipynb - jupyter notebook used during exploratory data analysis
-* luxury.ipynb - jupyter notebook fun EDA on luxury/exotic cars 
+# APPENDIX
 * prompt_ii.ipynb - main notebook with business reasoning and cases
-
-Some initial analysis shows that the number or cars start to tail of in the 1990s so we're going to use data between 1995 and 2024 which is about 30 years of data. The median price did not change much going from a 50 year window to a 30 year window. 
-
-Median price from 1975-2024
-![year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
-Median price from 1995-2024
-![year_price_1995_2024](images/cleaned_year__price_1995_2024.png)
-
-*Car color* 
-* Interestingly, white, black, and silver are the top color choices for cars.  Same holds true for luxury/exotic cars.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----
-
-# Supplemental
-Some data plots created in EDA, pre data cleaning: 
-![cleaned_year_price_1975_2024](images/cleaned_year_price_1975_2024.png)
-
-
-
-
+* image directory - contains plots used in the report
+* supp directory contains notebooks used for EDA and luxury vehicle analysis
+    * eda.ipynb - jupyter notebook used during exploratory data analysis
+    * luxury.ipynb - jupyter notebook fun EDA on luxury/exotic cars 
