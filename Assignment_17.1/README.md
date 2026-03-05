@@ -26,11 +26,16 @@ The classification goal is to predict if the client will subscribe a term deposi
 | Decision Tree | 4.5s | 0.9002 | 0.3227 | 
 | SVM | 3m 48.8s | 0.8949 |  0.3687 | 
 
+![tuning](images/model_comparison_after_tuning.png)
+
 ## Additional improvements using balanced weights
+| Model | Train Time | Test Accuracy | F1 Score | 
+| ----- | ---------- | -----------   | -------- | 
+| KNN | 8.9s | 0.83512 | 0.4675 | 
+| Decision Tree | 4.5s | 0.8499 | 0.4800 | 
+| SVM | 3m 48.8s | 0.8532 |  0.4901 | 
 
-
-
-
+![balanced](images/model_comparison_after_tuning_balanced.png)
 
 ## Top 10 Feature Coefficients
 ![top_10_coef](images/top_10_feature_coefficients.png)
