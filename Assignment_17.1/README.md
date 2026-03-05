@@ -3,6 +3,17 @@
 ## Executive Summary
 The dataset collected is related to 17 campaigns that occurred between May 2008 and November 2010. 
 
+Based on the evaluation metric we prioritized (Accuracy and F1 score, the best-performing model was the tuned model with the highest test-set F1 score. 
+
+This matters from a business perspective because:
+* Subscription results are typically imbalanced. 
+* Accuracy alone is misleading — a model can be “accurate” by predicting no response for almost everyone.
+* F1 score balances precision and recall, which aligns with business trade-offs:
+    * Precision → don’t waste outreach budget on unlikely subscribers
+    * Recall → don’t miss potential subscribers
+
+A model with the best F1 score provides the best balance between cost control and opportunity capture, making it more reliable for campaign prioritization.
+
 ## Business Objctive
 The classification goal is to predict if the client will subscribe a term deposit (variable y). The task is to finding the best model, that would be helpful in chieving that goal. 
 
