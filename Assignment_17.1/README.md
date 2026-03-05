@@ -22,18 +22,20 @@ The classification goal is to predict if the client will subscribe a term deposi
 ## Improving the model by finding optimal hyperparameters.
 | Model | Train Time | Test Accuracy | F1 Score | 
 | ----- | ---------- | -----------   | -------- | 
-| KNN | 8.9s | 0.9120 | 0.8926 | 
-| Decision Tree | 4.5s | 0.9002 | 0.3227 | 
-| SVM | 3m 48.8s | 0.8949 |  0.3687 | 
+| Logistic Regression | 3.6s | 0.9012 | 0.3414 | 
+| KNN | 7.7s | 0.8925 | 0.3571 | 
+| Decision Tree | 4.8s | 0.9002 | 0.3884 | 
+| SVM | 3m 44s | 0.8949 |  0.3841 | 
 
 ![tuning](images/model_comparison_after_tuning.png)
 
 ## Additional improvements using balanced weights
 | Model | Train Time | Test Accuracy | F1 Score | 
 | ----- | ---------- | -----------   | -------- | 
-| KNN | 8.9s | 0.83512 | 0.4675 | 
+| Logistic Regression | 8.9s | 0.83512 | 0.4675 | 
 | Decision Tree | 4.5s | 0.8499 | 0.4800 | 
 | SVM | 3m 48.8s | 0.8532 |  0.4901 | 
+* No change in KNN (balancing does not apply)
 
 ![balanced](images/model_comparison_after_tuning_balanced.png)
 
