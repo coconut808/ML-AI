@@ -5,11 +5,11 @@
 ## Executive Summary
 The goal of this project is to identify and evaluate the best model for classifying IT Support ticket types as suggest a link to relevant documentation.  This will help save time for internal users as well as IT Staff in resolving issues. Thus allowing time to improve service and allocate resources to create and improve workflow automations for the company. 
 
-**Problem Statement**
+**Problem Statement**  
 IT support teams are occupied with unclassified tickets, which slows down ticket routing and triage. The goal is to reduce the number of repeat questions and time spent by auto-classifying tickets. In addition a FAQ Response System to respond to the internal user base. It will help reduce repeatble tasks and the insights will also serve as a precursor to agents and a chatbot. 
 
 ## Data Engineering
-**Label Engineering**
+**Label Engineering**  
 Using domain knowledge a keyword mapping was created prior to the start of the analysis. It was intended to be used as a base for our labels and classification.  
 
 ```
@@ -35,10 +35,10 @@ For this project, a total of 4 datasets were used.  This type of data across any
 
 Our final dataset resulted in 685 records for analysis. 
 
-**Included notebooks**
-[capstone_eda](capstone_eda.ipynb)
-[capstone_modeling](capstone_modeling.ipynb)
-[capstone_deployment](capstone_deployment.ipynb)
+**Included notebooks**  
+[capstone_eda](capstone_eda.ipynb)  
+[capstone_modeling](capstone_modeling.ipynb)  
+[capstone_deployment](capstone_deployment.ipynb)  
 
 ### Analysis
 We use a combinarion of NLP preprocessing steps (lowercasing, punctuation removal, steop word filtering) to find the most common words used for each dataset. This aligned well with our keyword mapping and will contribute to our next steps in automated agents and a chatbot.  
@@ -62,7 +62,7 @@ The top n-grams for each classification.
 ![hardware_ngrams](images/hardware_ngrams.png)
 
 I decided to go with Naive Bayes as our intial baseline model.  It is known to be a good baseline classifier for text classification.  
-![naive_bayes_comparison](naive_bayes_comparison.png)
+![naive_bayes_comparison](images/naive_bayes_comparison.png)
 
 Train / Test Split
 The dataset was split **80 / 20** into training and test sets.  
@@ -71,10 +71,9 @@ The top baseline model score 0.6654, and was used as our baseline score to beat.
 
 I ran though a manual comparison of additional models: Logistic Regression, linearSVC, and Random Forest each using CountVectorizer and TfidfVectorizer and interestingly Random Forest + Tfidf was the front runner prior to running a grid search cross validation for optimal hyper parameters. During model comparison, a pipeline was used to prevent data leakage.  
 
-### Results
+## Results
 Top Model is **LinearSVC** with CountVectorizer. 
 ![top_model](images/top_model_comparison.png)
-
 
 ## Next Steps
 * Continuously update the FAQ pages and documentation. 
@@ -100,7 +99,7 @@ To run the included notebooks, install the following libraries if not already pr
 * nltk - used for tokenization, stop words
 * matplotlib, seaborn - data handling and visualization
 
-**Instructions**
+### Instruction
 You will need to run the 1 fastapi server, and 2 streamlit servers.  You can run each process in a separate terminal app or background
 each process
 
