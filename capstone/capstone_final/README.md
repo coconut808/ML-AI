@@ -72,7 +72,7 @@ The top baseline model score 0.6654, and was used as our baseline score to beat.
 I ran though a manual comparison of additional models: Logistic Regression, linearSVC, and Random Forest each using CountVectorizer and TfidfVectorizer and interestingly Random Forest + Tfidf was the front runner prior to running a grid search cross validation for optimal hyper parameters. During model comparison, a pipeline was used to prevent data leakage.  
 
 ## Results
-Top Model is **LinearSVC** with CountVectorizer. 
+Top Model is **LinearSVC** with CountVectorizer with an F1 score of: 0.8390
 ![top_model](images/top_model_comparison.png)
 
 ## Next Steps
